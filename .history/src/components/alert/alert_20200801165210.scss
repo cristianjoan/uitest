@@ -1,0 +1,16 @@
+
+.alert-container {
+    background-color: #ebebeb;
+}
+
+.alert-title {
+    width: 200px;
+
+    span {
+        font-size: 37px;
+    }
+
+    &:first-child {
+        font-size: 21px;
+    }
+}

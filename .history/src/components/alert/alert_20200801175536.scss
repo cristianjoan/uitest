@@ -1,0 +1,54 @@
+
+.alert-container {
+    background-color: #ebebeb;
+    display: inline-block;
+    height: auto;
+    width: 100%;
+    max-width: 1024px;
+    position: relative;
+}
+
+.alert-title {
+    width: 200px;
+    float: left;
+    margin: 23px;
+    margin-left: 28px;
+
+    span {
+        display: inline-block;
+
+        &:first-child {
+            font-size: 20px;
+        }
+
+        &:nth-child(2) {
+            font-size: 36px;
+            line-height: 30px;
+        }
+    }
+}
+
+.alert-message {
+    float: left;
+    width: 691px;
+
+    p {
+        text-align: left;
+        font-size: 15px;
+        margin: 33px 0;
+    }
+}
+
+.alert-close {
+    position: absolute;
+    right: 24px;
+    top: 37px;
+
+    i {
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 768px) {
+    
+}
