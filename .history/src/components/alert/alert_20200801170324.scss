@@ -1,0 +1,33 @@
+
+.alert-container {
+    background-color: #ebebeb;
+    display: inline-block;
+    height: auto;
+}
+
+.alert-title {
+    width: 200px;
+    float: left;
+    margin: 28px 23px 24px;
+
+    span {
+        display: inline-block;
+
+        &:first-child {
+            font-size: 20px;
+        }
+
+        &:nth-child(2) {
+            font-size: 37px;
+        }
+    }
+}
+
+.alert-message {
+    float: left;
+    width: 691px;
+
+    p {
+        text-align: left;
+    }
+}

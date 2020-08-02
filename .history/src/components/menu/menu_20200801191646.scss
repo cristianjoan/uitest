@@ -1,0 +1,30 @@
+.menu-container {
+    width: 100%;
+    max-width: 1024px;
+    display: inline-block;
+    padding: 47px 0 0;
+    box-sizing: border-box;
+}
+
+.menu-option {
+    float: right;
+    margin: 10px 0 0 50px;
+    font-size: 16px;
+
+    &.main-option {
+        float: left;
+        font-size: 35px;
+        margin: 0;
+    }
+
+    .option-title {
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 750px) {
+    .menu-option {
+        width: 100%;
+        margin: 10px 50px;
+    }   
+}

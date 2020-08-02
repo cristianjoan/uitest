@@ -1,0 +1,14 @@
+.menu-container {
+    width: 100%;
+    max-width: 1280px;
+    display: inline-block;
+    padding-top: 47px;
+}
+
+.menu-option {
+    float: right;
+
+    &.main-option {
+        float: left;
+    }
+}

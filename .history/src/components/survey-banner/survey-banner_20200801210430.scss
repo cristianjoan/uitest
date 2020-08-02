@@ -1,0 +1,11 @@
+.banner-img {
+    width: 100%;
+    height: 500px;
+    background-image: url('~@/assets/pope.png')
+}
+
+.banner-container {
+    bottom: 100px;
+    position: relative;
+    z-index: -1;
+}

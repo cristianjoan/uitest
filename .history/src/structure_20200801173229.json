@@ -1,0 +1,14 @@
+{
+    "votingBoxes": [
+        {
+          "name": "Jane Doe",
+          "phone": "888-555-1212",
+          "relationship": "spouse"
+        },
+        {
+          "name": "Justin Doe",
+          "phone": "877-123-1212",
+          "relationship": "pa"
+        }
+    ]
+  }

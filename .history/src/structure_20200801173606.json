@@ -1,0 +1,24 @@
+{
+    "votingBoxes": [
+        {
+          "name": "Kanye West",
+          "argument": "Vestibulum diam ante, porttitor a odio eget, rhoncus neque. Aenean eu velit libero.",
+          "relationship": "spouse"
+        },
+        {
+          "name": "Mark Zuckerberg",
+          "argument": "Vestibulum diam ante, porttitor a odio eget, rhoncus neque. Aenean eu velit libero.",
+          "relationship": "pa"
+        },
+        {
+          "name": "Cristina Fernández de Kirchner",
+          "argument": "Vestibulum diam ante, porttitor a odio eget, rhoncus neque. Aenean eu velit libero.",
+          "relationship": "pa"
+        },
+        {
+          "name": "Malala Yousafzai",
+          "argument": "Vestibulum diam ante, porttitor a odio eget, rhoncus neque. Aenean eu velit libero.",
+          "relationship": "pa"
+        }
+    ]
+  }

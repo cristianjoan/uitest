@@ -1,0 +1,46 @@
+<template>
+    <div>
+        <div class="menu-container">
+            <div :to="Home" class="main-option menu-option">
+                <span class="option-title">Rule Of Thumb</span>
+            </div>
+            <div :to="Home" class="menu-option">
+                <i class="material-icons">search</i>
+            </div>
+            <div :to="Home" class="menu-option">
+                <span class="option-title">Log In / Sing Up</span>
+            </div>
+            <div :to="Home" class="menu-option">
+                <span class="option-title">How It Works</span>
+            </div>
+            <div :to="Search" class="menu-option">
+                <span class="option-title">Past Trials</span>
+            </div>
+        </div>
+        <div class="menu-container-mobile">
+            <div @click="openMenu = !openMenu" class="menu-icon">
+                <i class="material-icons">search</i>
+            </div>
+            <div v-if="openMenu" class="menu-options-container">
+                <div :to="Home" class="menu-option">
+                    <span class="option-title">Rule Of Thumb</span>
+                </div>
+                <div :to="Home" class="menu-option">
+                    <span class="option-title">Past Trials</span>
+                </div>
+                <div :to="Home" class="menu-option">
+                    <span class="option-title">How It Works</span>
+                </div>
+                <div :to="Home" class="menu-option">
+                    <span class="option-title">Log In / Sing Up</span>
+                </div>
+                <div :to="search" class="menu-option">
+                    <i class="material-icons">search</i>
+                </div>
+            </div>    
+        </div>
+    </div> 
+</template>
+
+<script src="./menu.script.js"></script>
+<style lang="scss" scoped src="./menu.scss"></style>
