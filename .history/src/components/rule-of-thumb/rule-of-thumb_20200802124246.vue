@@ -1,0 +1,13 @@
+<template>
+    <div>
+        <SurveyBanner />
+        <Alert />
+        <SurveyCard 
+            :key="i"
+            v-for="(card, i) in cards.votingBoxes"
+            :cardInfo="card" />
+    </div>
+</template>
+
+<script src="./rule-of-thumb.script.js"></script>
+<style lang="scss" scoped src="./rule-of-thumb.scss"></style>

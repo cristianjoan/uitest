@@ -1,0 +1,42 @@
+.card-image {
+    width: 490px;
+    height: 551px;
+    color: white;
+    text-align: left;
+}
+
+.heading-1 {
+    font-size: 44px;
+    font-weight: 400;
+    margin: 0;
+    line-height: 40px;
+}
+
+.thumbs-message {
+    font-weight: 300;
+    font-size: 16px;
+    margin: 12px 0 17px;
+}
+
+.thumb {
+    width: 32px;
+    height: 32px;
+    box-sizing: border-box;
+    padding: 6px;
+
+    &.up {
+        background-color: #2cbab3;
+    }
+
+    &.down {
+        background-color: #2cbab3;
+    }
+
+    .material-icons {
+        font-size: 20px;
+    }
+}
+
+.category {
+    font-size: 12px;
+}
