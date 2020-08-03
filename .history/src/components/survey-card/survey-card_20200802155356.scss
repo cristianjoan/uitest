@@ -1,0 +1,108 @@
+.card-image {
+    width: 490px;
+    height: 551px;
+    color: white;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-options {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.card-votes {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    margin-top: 36px;
+}
+
+.card-status {
+    margin-top: 300px;
+}
+
+.card-info {
+    margin: 295px 0 0 11px;
+    max-width: 365px;
+}
+
+.heading-1 {
+    font-size: 44px;
+    font-weight: 400;
+    margin: 0;
+    line-height: 40px;
+}
+
+.thumbs-message {
+    font-weight: 300;
+    font-size: 16px;
+    margin: 12px 0 7px;
+    max-width: 360px;
+}
+
+.thumb {
+    width: 32px;
+    height: 32px;
+    box-sizing: border-box;
+    padding: 6px;
+
+    &.up {
+        background-color: #2cbab3;
+    }
+
+    &.down {
+        background-color: #feb432;
+    }
+
+    .material-icons {
+        font-size: 20px;
+    }
+}
+
+.up-status {
+    background-color: #2cbab3c7;
+    padding: 10px;
+    height: 50px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+
+    span {
+        font-weight: 300;
+    }
+}
+
+.down-status {
+    @extend .up-status;
+    background-color: #feb432b5;
+}
+
+.thumb-button {
+    margin-right: 12px;
+}
+
+.category {
+    font-size: 12px;
+}
+
+.vote-button {
+    background-color: #0000004f;
+    border: 1px solid white;
+    box-sizing: border-box;
+    color: white;
+    width: 100px;
+    height: 40px;
+    font-family: lato;
+    font-weight: 600;
+    cursor: pointer;
+
+    &:focus {
+        outline: none;
+    }
+}

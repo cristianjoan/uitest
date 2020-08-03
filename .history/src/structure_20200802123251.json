@@ -1,0 +1,36 @@
+{
+    "votingBoxes": [
+        {
+          "id": "1",
+          "name": "Kanye West",
+          "argument": "Vestibulum diam ante, porttitor a odio eget, rhoncus neque. Aenean eu velit libero.",
+          "category": "Entertainment",
+          "publishDate": "01/07/2020",
+          "image": "~@/assets/kanye.png"
+        },
+        {
+          "id": "2",
+          "name": "Mark Zuckerberg",
+          "argument": "Vestibulum diam ante, porttitor a odio eget, rhoncus neque. Aenean eu velit libero.",
+          "category": "Business",
+          "publishDate": "01/07/2020",
+          "image": "~@/assets/mark.png"
+        },
+        {
+          "id": "3",
+          "name": "Cristina Fernández de Kirchner",
+          "argument": "Vestibulum diam ante, porttitor a odio eget, rhoncus neque. Aenean eu velit libero.",
+          "category": "Politics",
+          "publishDate": "01/07/2020",
+          "image": "~@/assets/cristina.png"
+        },
+        {
+          "id": "4",
+          "name": "Malala Yousafzai",
+          "argument": "Vestibulum diam ante, porttitor a odio eget, rhoncus neque. Aenean eu velit libero.",
+          "category": "Entertainment",
+          "publishDate": "01/07/2020",
+          "image": "~@/assets/malala.png"
+        }
+    ]
+  }

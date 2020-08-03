@@ -1,0 +1,16 @@
+.cards-container {
+    display: flex;
+    flex-flow: row;
+    max-width: 1024px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.heading {
+    font-weight: 300;
+    font-size: 50px;
+    text-align: left;
+    max-width: 1024px;
+    margin: 0 auto;
+}
